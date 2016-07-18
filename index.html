@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Wikipedia Viewer Project</title>
+	<link href='https://fonts.googleapis.com/css?family=Hind' rel='stylesheet' type='text/css'>
+	<script src="https://use.fontawesome.com/3b358e4eff.js"></script>
+
+
+
+
+	<link rel="stylesheet" href="css/wikisearch.css">
+
+
+
+
+</head>
+
+<body>
+
+	<!-- Project goals:
+      Functioning viewer w/ api calls
+      design with custom color palatte
+
+-->
+
+	<nav class="topbar">
+		<header>
+			<h1>Search Wikipedia</h1>
+		</header>
+		<form class="form">
+			<input type "search" name="wikipediasearch" id="searchbox"></input>
+			&nbsp; <span class="fa fa-search pewter fa-1x fa-fw" id="search"></span>
+			<a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank"><span class="fa fa-random fa-fw pewter"></span></a>
+			<!--<input type="button" value="Test" id="test"></input>-->
+		</form>
+
+	</nav>
+
+	<section class="result-container">
+	</section>
+
+	<div class="load-button inactive">
+		<span class="fa fa-plus-square fa-3x fa-fw pewter" id="loadResults" class="inactive"></span>
+	</div>
+
+
+	<footer class="sticky-footer inactive">
+		DESIGNED AND CODED BY DAN DRUST 2016
+	</footer>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+	<script src="js/wikisearch.js"></script>
+
+
+
+
+</body>
+
+</html>
